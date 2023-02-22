@@ -59,7 +59,7 @@ let password
               const oldUser = docs
             const secret2 =   SECRET  + password;
             const token =    jwt.sign({email: email , id : id}, SECRET, {expiresIn : "5m"} )
-          const link = `http://localhost:8000/reset-password/${id}/${token}`
+          const link = `https://cheerful-shoulder-pads-hare.cyclic.app/reset-password/${id}/${token}`
 
           var transporter = nodemailer.createTransport({
             service: 'gmail',

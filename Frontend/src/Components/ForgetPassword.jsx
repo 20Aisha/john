@@ -9,7 +9,7 @@ const ForgetPassword = () => {
 	const [ErrorTakeOF, setErrorTakeOF] = useState(false)
 	const navigate = useNavigate();
 	const[email,setEmail] = useState()
-	let  baseUrl = "http://localhost:8000/api/v1"
+	let  baseUrl = "https://cheerful-shoulder-pads-hare.cyclic.app/api/v1"
 	
 	const logindata =  async ()=>{
 		try {

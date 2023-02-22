@@ -49,7 +49,7 @@ const sendData = (e)=>{
     console.log(Description);
 let id  = e
 
-axios.post(`http://localhost:8000/api/v1/updates/${id}`, {
+axios.post(`https://cheerful-shoulder-pads-hare.cyclic.app/api/v1/updates/${id}`, {
     name : Name , 
     price : Price , 
     description : Description , 

@@ -17,7 +17,7 @@ const LogInPage = () => {
 	const [email, setEmail] = useState()
 	const [password, setepassword] = useState()
 	const [repassword, Resetepassword] = useState()
-let  baseUrl = "http://localhost:8000/api/v1"
+let  baseUrl = "https://cheerful-shoulder-pads-hare.cyclic.app/api/v1"
 const signup = async () => {
 
 if(password != repassword){

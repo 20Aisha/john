@@ -11,7 +11,7 @@ const [Price ,setPrice] = useState()
 const [Description ,setDescription] = useState()
 const [Input ,setInput] = useState()
 const [category ,Setcategory] = useState()
-const baseUrl = 'http://localhost:8000/api/v1'
+const baseUrl = 'https://cheerful-shoulder-pads-hare.cyclic.app/api/v1'
 
 
 const getInitialState = () => {
