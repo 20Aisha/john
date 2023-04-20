@@ -1,11 +1,21 @@
 .asfddsfdsfdsmkj{
     /* margin: auto; */
-    flex-wrap: wrap;
     display: flex;
-    justify-content: center;
-    background-color:rgb(247, 248, 248);
-    
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:white;
+    padding: 5vw;
+   
+}
+.price-2
+{  
+    font-size: 30px;
+    color: black;
+}
+.name
+{  
+    font-size: 25px;
+    color: black;
 }
 .bhy{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -128,11 +138,11 @@
 }
 .fdsfdsfdsfdsfds{
     color: red;
-    font-family: cursive;
+    font-family: Roundkey;
     font-size: 1rem;
 }
 .fdsfdsfdsfdsfds1{
-    font-family: cursive;
+    font-family: Roundkey;
     font-size: 2rem;
 }
 .fdsfdsfdsfdsfds12{
@@ -143,5 +153,5 @@
     /* display: none; */
     /* font-size: 20rem; */
     font-weight: bolder;
-    font-family: cursive;
+    font-family: Roundkey;
 }

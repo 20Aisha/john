@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Roundkey;
     letter-spacing: 1px;
     font-weight: 300;
     
@@ -234,7 +234,7 @@ nav {
 
 .typewrite {
     text-decoration: none;
-    /* font-family: 'Varela Round', sans-serif;; */
+    /* font-family: 'Varela Round', Roundkey;; */
 }
 
 /* Sticky bar */
@@ -342,7 +342,7 @@ nav {
     text-decoration: none;
 }
 .content-text{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', Roundkey;
 }
 .tr{
     font-family: 'Lora', serif;

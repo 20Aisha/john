@@ -12,363 +12,283 @@ import cross from '../assets/images/cancel-svgrepo-com.svg'
 import Header from './Header/Header'
 import caroImage from '../assets/images/banner-img.png'
 import { Link } from 'react-router-dom'
+import tatus from '../assets/images/tatsu.png'
+import Footer from './Footer'
+
+
 
 const Subcription = () => {
   return (
     <div>
       <div className='bg-black  text-white'> Spend $50 for free shipping</div>
       <Header />
-      <div className='mmqqoop'>
 
-        <div className='iiyytt'>
-          <h1 className='fgd mkjbbfss notfillmine'>Subscription</h1> <br />
-          {/* <h1  className='fgd mkjbbfss'></h1> */}
-          <p className='mkjbbfss awdw notfillmine'>Life shouldn't be so black & white. <br />
-            The Brightest flame casts the darkest shadow.</p>
-          {/* <button className='iutrvh'>Shop Now!</button> */}
-          <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
-        </div>
-
-
-        <div className='ffmmkklloo'>
-          <img src={caroImage} alt="" />
+      <div className='mmmmiok' >
+        <div style={{ backgroundImage: `url(${tatus})` }}>
+          <div className='ml-5 p-5' style={{ textAlign: "left" }}>
+            <h1 className='fgd font-extrabold	mkjbbfss ' style={{ fontSize: 100 }}>Subscription</h1> <br />
+            {/* <h1 className='fgd mkjbbfss'></h1><br /> */}
+            <p className='ml-1 p-5' style={{ fontSize: 50, color: "white", lineHeight: 1 }}>Life shouldn't be so black & white.<br />
+              The Brightest flame casts the darkest <br /> shadow.</p>
+            <button className='iutrvh'>Shop Now!</button>
+            <br />
+            <br />
+          </div>
         </div>
       </div>
 
       {/*  Inner Div*/}
       <div className="innner">
+        <section className="vip-member">
+          <h2 className="text-7xl">How Our VIP Membership Works</h2>
 
-
-        <section id="membership" className=' p-20   jbdx'>
-
-          <div class="membership-container  ">
-            <div class="row membership-row">
-              <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col   membership-heading-col">
-                <h2 className='text-7xl wafew mx-14' >How Our VIP Membership Works</h2>
-                <div className="sasd">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. Nulla neque sapien, mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet luctus erat, at ullamcorper neque feugiat id.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
+          <p className='paragraph-style-gray mt-5'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+            tempus augue, id convallis est. Nulla neque sapien, mattis at
+            molestie id, auctor faucibus ligula. Pellentesque laoreet luctus
+            erat, at ullamcorper neque feugiat id.
+          </p>
         </section>
 
+        {/* member  */}
+        <section className='member-section'>
+            <div>
+            <h2 className="text-4xl">MEMBER CREDITS</h2>
+            </div>
+            <div className='member-list'>
+            <ul className='paragraph-style-white'>
+                 <li className='mt-2'>
+                  Lorem  sed impedit totam. Dicta provident consequatur voluptate, quis adipisci esse fugiat ullam ea quisquam, corporis omnis culpa ipsam placeat excepturi cupiditate voluptatem vel quae! Perspiciatis.
+                 </li>
+                 <li className='mt-5'>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, aspernatur eligendi porro perspiciatis nam placeat id quae aperiam voluptate repellat deserunt veritatis nobis explicabo hic rem nihil maiores eveniet perferendis iure praesentium tempore. Voluptates sed adipisci cum eveniet non delectus reiciendis fugiat iusto libero, dolor mollitia sequi vero architecto magni!
+                 </li>
+                 <li className='mt-5'>
+                  Lorem  sed impedit totam. Dicta provident consequatur voluptate, quis adipisci esse fugiat ullam ea quisquam, corporis omnis culpa ipsam placeat excepturi cupiditate voluptatem vel quae! Perspiciatis.
+                 </li>
+                 <li className='mt-5'>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, aspernatur eligendi porro perspiciatis nam placeat id quae aperiam voluptate repellat deserunt veritatis nobis explicabo hic rem nihil maiores eveniet perferendis iure praesentium tempore. Voluptates sed adipisci cum eveniet non delectus reiciendis fugiat iusto libero, dolor mollitia sequi vero architecto magni!
+                 </li>
+                 
+             </ul>
+
+            
 
 
-        <div className='bksackk' >
-          <section id="membership-credits" className='hadibjss'>
-            <h1 className='text-4xl mb-10'>Member Credits</h1>
-            <ul className='yvbsad' >
-              <li className='kascbu' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. Nulla neque sapien, mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet luctus erat, at ullamcorper neque feugiat id.</li>
-              <li className='kascbu'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. Nulla neque sapien, mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet luctus erat, at ullamcorper neque feugiat id.</li>
-              <li className='kascbu'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. Nulla neque sapien, mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet luctus erat, at ullamcorper neque feugiat id.</li>
-              <li className='kascbu'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. Nulla neque sapien, mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet luctus erat, at ullamcorper neque feugiat id.</li>
-            </ul>
 
-          </section>
-        </div>
-
-
-
-
+            </div>
+        </section>
 
         {/* Third Part  */}
 
-
-
-
-        <div className="firstMain5612">
-
+        <div className="cards-parent">
           {/* One */}
 
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={coin} alt="" />
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={coin} alt="" />
             </div>
 
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
+            <div className="content-cards">
+              <h1 className="text-3xl">More Saving</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
             </div>
           </div>
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={RightIcon} alt="" />
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={RightIcon} alt="" />
             </div>
 
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
-            </div>
-          </div>
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={diamond} alt="" />
-            </div>
-
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
+            <div className="content-cards">
+              <h1 className="text-3xl">Skip Often as you like</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
             </div>
           </div>
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={diamond} alt="" />
+            </div>
 
+            <div className="content-cards">
+              <h1 className="text-3xl">Best Quality</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={car} alt="" />
+            </div>
 
+            <div className="content-cards">
+              <h1 className="text-3xl">More Saving</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={key} alt="" />
+            </div>
+
+            <div className="content-cards">
+              <h1 className="text-3xl">More Saving</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="icon-cards">
+              <img className="heiop" src={cross} alt="" />
+            </div>
+
+            <div className="content-cards">
+              <h1 className="text-3xl">More Saving</h1>
+              <p className="paragraph-style-black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
+                tempus augue, id convallis est.{" "}
+              </p>
+            </div>
+          </div>
+          
+          
         </div>
 
-        <div className="firstMain5612">
-
-          {/* One */}
-
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={car} alt="" />
-            </div>
-
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
-            </div>
-          </div>
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={key} alt="" />
-            </div>
-
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
-            </div>
-          </div>
-          <div className='rr1' >
-            <div className='oh09'>
-              <img className='heiop' src={cross} alt="" />
-            </div>
-
-            <div className='jmbd'>
-              <h1 className='text-3xl' >More Saving</h1>
-              <p className='qaz'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est. </p>
-            </div>
-          </div>
-
-
-        </div>
-
+       
 
         <div class="wrapper">
           <div class="table basic pmmvfd ">
-            <div class=""><h2  className="mkoiu89" style={{"font-size" : "2rem" , "font-family" :  "cursive"}}   >SILVER</h2></div>
-            <div class="aj_p"><p   className="mkoiu89" style={{"font-size" : "1rem" , "font-family" :  "cursive"}} >Ideal solution for beginners</p></div>
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text mkoiu899">$50.0</span>
-                  {/* <span class="price">29<span style={{"fontSize" : "12px"}}>/mo</span></span> */}
-
-                </div>
-              </div>
+            <div class="">
+              <h2
+                className="mkoiu89"
+                style={{ "font-size": "3rem", "font-family": "Roundkey" }}
+              >
+                SILVER
+              </h2>
             </div>
+            <div class="aj_p">
+            <span class="text price">$50.0</span>
+            </div>
+           
             <div class="package-name"></div>
             <ul class="features">
-              <div class="btn"><button>Add to Cart</button></div>
-              <p class="aj_des  mkoiu8998">$159/mo when you renew</p>
+            
+              
               <li>
-                <span class="list-name">1 Website</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">~10000 Visits Monthly</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">30 GB SSD Storage</span>
-                <span class="icon cross"><i class="fas fa-times"></i></span>
+                <p className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">100 GB Bandwidth</span>
-                <span class="icon cross"><i class="fas fa-times"></i></span>
+                <p className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
             </ul>
-            <div><h2>See all features <span class="icon cross"><i class="fa fa-angle-down"></i></span></h2></div>
+            <div>
+             
+            </div>
+            <button className="buy-btn">Buy Now</button>
           </div>
-          <div class="table premium pmmvfd  ">
-            <div class=""><h2  className="mkoiu89" style={{"font-size" : "2rem" , "font-family" :  "cursive"}} >GOLD</h2></div>
-            <div class="aj_p"><p   className="mkoiu89" style={{"font-size" : "1rem" , "font-family" :  "cursive"}} >Perfect package for personal</p></div>
-            {/* <div class="ribbon"><span>BEST VALUE</span></div> */}
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text mkoiu899">$100.0</span>
-                  {/* <span class="price">59<span style="font-size:12px">/mo</span></span> */}
-                </div>
-              </div>
+          <div class="table basic pmmvfd ">
+            <div class="">
+              <h2
+                className="mkoiu89"
+                style={{ "font-size": "3rem", "font-family": "Roundkey" }}
+              >
+              GOLD
+              </h2>
             </div>
+            <div class="aj_p">
+            <span class="text price">$100.0</span>
+            </div>
+           
             <div class="package-name"></div>
             <ul class="features">
-              <div class="btn"><button>Add to Cart</button></div>
-              <p class="aj_des mkoiu8998">$159/mo when you renew</p>
+            
+              
               <li>
-                <span class="list-name">50 Website</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">~25000 Visits Monthly </span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">60 GB SSD Storage</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">200 GB Bandwidth</span>
-                <span class="icon cross"><i class="fas fa-times"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
+              </li>
+              <li>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
+              </li>
+              <li>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
+              </li>
+              <li>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
             </ul>
-            <div class="premium_all"><h2>See all features <span class="icon cross"><i class="fa fa-angle-down"></i></span></h2></div>
+            <div>
+             
+            </div>
+            <button className="buy-btn">Buy Now</button>
           </div>
-          <div class="table ultimate pmmvfd">
-            <div   className='font-2xl' ><h2   className="mkoiu89" style={{"font-size" : "2rem" , "font-family" :  "cursive"}} >DIAMOND</h2></div>
-            <div class="aj_p"><p  className="mkoiu89" style={{"font-size" : "1rem" , "font-family" :  "cursive"}} >Perfect package for businesses</p></div>
-            <div class="price-section">
-              <div class="price-area">
-                <div class="inner-area">
-                  <span class="text mkoiu899">$150.0</span>
-                  {/* <span class="price">99<span style="font-size:12px">/mo</span></span> */}
-                </div>
-              </div>
+          <div class="table basic pmmvfd ">
+            <div class="">
+              <h2
+                className="mkoiu89"
+                style={{ "font-size": "3rem", "font-family": "Roundkey" }}
+              >
+                DIAMOND
+              </h2>
             </div>
+            <div class="aj_p">
+            <span class="text price">$150.0</span>
+            </div>
+           
             <div class="package-name"></div>
             <ul class="features">
-              <div class="btn"><button>Add to Cart</button></div>
-              <p class="aj_des mkoiu8998">$159/mo when you renew</p>
+            
+              
               <li>
-                <span class="list-name">100 Website</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">~75000 Visits Monthly </span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">200 GB SSD Storage</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
               <li>
-                <span class="list-name">500 GB Bandwidth</span>
-                <span class="icon check"><i class="fas fa-check"></i></span>
+                <p  className='mkoiu89'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nesciunt saepe placeat dolor. Odit, incidunt!</p>
               </li>
             </ul>
-            <div><h2>See all features <span class="icon cross"><i class="fa fa-angle-down"></i></span></h2></div>
+            <div>
+             
+            </div>
+            <button className="buy-btn">Buy Now</button>
           </div>
         </div>
-
-
-
       </div>
 
 
 
-
-      <div class="pg-footer">
-        <footer class="footer">
-          {/* <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-          <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-        </svg> */}
-          <div class="footer-content">
-            <div class="footer-content-column">
-              <div class="footer-logo">
-                <a class="footer-logo-link" href="#">
-                  <span class="hidden-link-text">LOGO</span>
-                  <img src={dd} alt="" />
-                </a>
-              </div>
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Get Started</h2>
-                <ul id="menu-get-started" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Start</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Documentation</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Installation</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-content-column">
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Company</h2>
-                <ul id="menu-company" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Contact</a>
-                  </li>
-                  <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
-                    <a href="#">News</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Careers</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Legal</h2>
-                <ul id="menu-legal" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                    <a href="#">Privacy Notice</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Terms of Use</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-content-column">
-              <div class="footer-menu">
-                <h2 class="footer-menu-name"> Quick Links</h2>
-                <ul id="menu-quick-links" class="footer-menu-list">
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Support Center</a>
-                  </li>
-                  <li class="menu-item menu-item-type-custom menu-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Service Status</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Security</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Blog</a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                    <a href="#">Customers</a></li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Reviews</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer-content-column">
-              <div class="footer-call-to-action">
-                <h2 class="footer-call-to-action-title"> Let's Chat</h2>
-                <p class="footer-call-to-action-description"> Have a support question?</p>
-
-                <div className='adsufv'>
-                  <input className='border-1  kkll border-whites rounded-sm px-4 py-1' placeholder='Email Address' type="text" name="" id="" />
-                  <button className='nnju  border-black text-xl text-black mt-6 px-11 py-4 '>SUBSCRIBE</button>
-                </div>
-              </div>
-              <div class="footer-call-to-action">
-                <h2 class="footer-call-to-action-title"> You Call Us</h2>
-                <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> Ahmed</a></p>
-              </div>
-            </div>
-
-          </div>
-
-        </footer>
-      </div>
-
+      <Footer />
 
     </div>
   )

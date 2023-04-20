@@ -196,7 +196,7 @@ app.get('/api/v1/paginatpost', async (req, res) => {
         let query = tweetModel.find();
     
         const page = parseInt(req.query.page) || 1;
-        const pageSize = parseInt(req.query.limit) || 10;
+        const pageSize = parseInt(req.query.limit) || 12;
         const skip = (page - 1) * pageSize;
         const total = await tweetModel.countDocuments();
     

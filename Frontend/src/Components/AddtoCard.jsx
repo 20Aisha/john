@@ -26,21 +26,13 @@ import shopping from '../assets/images/shopping-icon.svg'
 
   console.log(  typeof  loacation.state.price);
   var x = Number(loacation.state.price)
-  
-  
-  
+    
   const [product1,Setproduct1 ] = useState(1)
   const [product2,Setproduct2 ] = useState(1)
   const [price, setPrice ] = useState(x)
   const [price1, setPrice1 ] = useState(x)
   
   console.log(typeof price) 
-
-
-
-
-
-
 
     return (
       <div>

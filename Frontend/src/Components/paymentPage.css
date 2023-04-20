@@ -1,5 +1,10 @@
+@font-face {
+    font-family: Roundkey;
+    src: url("./fonts/Roundkey\ Regular.otf");
+  }
+
 body {
-    font-family: 'Roboto', sans-serif!important;
+    font-family: "Roundkey" !important;
 	margin:0;
 	padding:0;
 	box-sizing: border-box;

@@ -58,48 +58,22 @@ const getData = ()=>{
 
             <div className='mmmmiok' id="navHeader" >
                 <div className='mmnnhhyy'>
-                    {/* <img src={bb} className='sasaasjmj' alt="Not Found" /> */}
 
-                    {/* <nav> */}
                     <Button shape="circle" style={styles.button} onClick={showDrawer}>
-                        <MenuOutlined style={{ color: "white" }} />
+                       <MenuOutlined style={{  color: "white" }} />
                     </Button>
-                    {/* </nav> */}
-                   
-
+                    
                     <img src={logo} alt="" />
 
-                    {/* Inner Logo */}
                     <div className='setrtmn'>
                     <Link   onClick={()=>{
                         getData()
-                    }} to={'/DashbordOrderAdmin'}><img    id="notALLog" className='pr-3' src={man} alt=""/></Link>
+                    }} to={'/SignupForm1'}><img    id="notALLog" className='pr-3' src={man} alt=""/></Link>
                         
                         <span className='text-white pr-3' > |</span>
-                        <Link to={'/SignupForm1'}><img className='pr-3' src={shopping} alt="" /></Link>
-                        
-
+                        <Link to={'/DashbordOrderAdmin'}><img className='pr-3' src={shopping} alt="" /></Link>
                     </div>
-
                 </div>
-
-
-
-                {/* Second */}
-
-                {/* <div className='mmqqoop'> */}
-
-                {/* <div className='iiyytt'>
-            <h1 className='fgd mkjbbfss'>Do Well, Live Well &</h1> <br />
-            <h1 className='fgd mkjbbfss'>Dress Really Well</h1><br />
-            <p className='mkjbbfss awdw'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est</p>
-            <button className='iutrvh'>Shop Now!</button>
-          </div> */}
-
-
-                {/* <div className='ffmmkklloo'>
-            <img src={caroImage} alt="" />
-          </div> */}
             </div>
 
 
@@ -114,20 +88,20 @@ const getData = ()=>{
                 onClose={closeDrawer}
                 
             >
-                {/* <button type="button" class="btn-close text-reset" onClick={closeDrawer} data-bs-dismiss="offcanvas" aria-label="Close"></button> */}
+                {/* <button type="button" class="btn-close text-reset" onClick={closeDrawer} data-bs-dismiss="offcanvas" aria-label="Close">RAza</button> */}
 
                 {/* <Divider /> */}
                 <p id="nav-item"><Link to="/" class="text-white">Home</Link></p>
-                <Divider />
-                <p id="nav-item"><Link to="/AllProduct" class="text-white">All Products</Link></p>
-                <Divider />
-                <p id="nav-item"><Link to="/collection" class="text-white">Collection</Link></p>
-                <Divider />
-                <p id="nav-item"><Link to="/subcription" class="text-white">Subcription</Link></p>
-                <Divider />
-                <p id="nav-item"><Link to="/contactus" class="text-white">Contact Us</Link></p>
-                <Divider />
+                {/* <Divider /> */}
                 <p id="nav-item"><Link to="/about" class="text-white">About-us</Link></p>
+                {/* <Divider /> */}
+                <p id="nav-item"><Link to="/collection" class="text-white">Collection</Link></p>
+                {/* <Divider /> */}
+                <p id="nav-item"><Link to="/subcription" class="text-white">Subcription</Link></p>
+                {/* <Divider /> */}
+                <p id="nav-item"><Link to="/contactus" class="text-white">Contact Us</Link></p>
+                {/* <Divider /> */}
+                <p id="nav-item"><Link to="/AllProduct" class="text-white">All Products</Link></p>
             </Drawer>
 
         </div>

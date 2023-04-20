@@ -1,3 +1,71 @@
+.innner
+{
+
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.buy-btn
+{
+  height: 40px;
+  width: 120px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: white;
+  color: #000000;
+  margin-top: 30%;
+}
+.paragraph-style-gray
+{
+  color: gray;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.paragraph-style-black
+{
+  color: black;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.paragraph-style-white
+{
+  color: white;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.vip-member
+{
+width: 80vw;
+display: flex;
+flex-direction: column;
+text-align: left;
+margin-top: 5vh;
+}
+.member-section
+{
+  background-color: #000000;
+  color: white;
+  margin-top: 5vh;
+  height: 70vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.member-list
+{
+  /* background-color: #cd3241; */
+  width: 90%;
+  height: 80%;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .checked {
   color: orange;
 }
@@ -14,8 +82,7 @@ justify-content: center;
   padding: 70px 40px;
   max-width: 80%;
   background-color: #161717;
-color: white;
-   
+  color: white;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -35,25 +102,33 @@ color: white;
 color: white;
    
 }
-.jmbd{
-  max-width: 300px;
+.content-cards{
+  width: 250px;
+  
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin-left: 5px;
 }
 /* .firstMain{
   border: 10px solid red;
 } */
-.rr1{
-  margin-bottom: 100px;
+.cards{
+ 
   display: flex;
   align-items: center;
+  width: 25vw;
+  height: 20vh;
 }
-.oh09{
-  display: flex;
-  align-items: center;
-  /* width: 66px; */
-  padding: 0px 10px;
-  height: 120px;
+.icon-cards{
+  
+  height: 130px;
+  width: 120px;
 background-color: #F1F1F1;
-  border-radius: 500px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 
 .heiop{
@@ -62,31 +137,33 @@ background-color: #F1F1F1;
 .qaz{
   line-height: 27px;
 }
-.firstMain5612{
-  margin: 70px 0px;
+.cards-parent{
+
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 7vh;
+  padding: 10h 5vh;
+  width: 80vw;
 }
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .wrapper{
-max-width: 1090px;
+max-width: 1190px;
 width: 100%;
 margin: auto;
 margin-bottom: 40px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+margin-top: 8vh;
 }
 .wrapper .table{
 background: #fff;
 width: calc(33% - 20px);
-
-padding: 80px 40px;
+padding: 60px 30px;
 position: relative;
 box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 text-align: center;
@@ -148,6 +225,13 @@ width: 100%;
 height: 2px;
 margin :35px 0;
 position: relative;
+}
+.features
+{
+
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .table .features li{
@@ -327,12 +411,18 @@ color: white;
 color: white;
    
 }
-.table:hover .mkoiu899{
+.price
+{
+  font-size: 40px;
+
+}
+.table:hover .price{
 color: white;
+font-size: 30px;
    
 }
 .mkoiu8998{
-  font-family: cursive;
+  font-family: Roundkey;
   font-size: 1rem;
 }
 .table:hover .mkoiu8998{
@@ -351,6 +441,7 @@ color: white;
   padding: 1000px ;
   /* margin-bottom: 100px; */
 }
+
 .awd{
   margin-bottom:200px;
 
@@ -359,16 +450,36 @@ color: white;
   font-size: 2rem;
 }
 
+@media only screen and (max-width: 600px)
+{
 
-@media screen and (max-width: 625px) {
-  .wafew{
-    font-size: 2rem;
-    margin-bottom: 20px;
-  } 
-}
-@media screen and (max-width: 701px) {
-  .wafew{
-    font-size: 2.3rem;
-    margin-bottom: 20px;
-  } 
+  .member-section
+  {
+    background-color: black;
+    color: white;
+    margin-top: 5vh;
+    height: 150vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .cards-parent{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 7vh;
+    height: 240vh;
+    width: 80vw;
+  }
+  .cards{
+ 
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+  }
+ 
 }

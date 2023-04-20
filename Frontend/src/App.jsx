@@ -27,11 +27,17 @@ import AllProduct from './Components/AllProduct';
 import GetData1 from './GetData1';
 import { AllProductDashboad } from './Components/Admin Dashbord/Product Add Page/AllProduct';
 import ForgetPassword from './Components/ForgetPassword';
+import Hoodies from './Components/Hoodies';
+import Tshirts from './Components/Tshirts';
+import Shorts from './Components/Shorts';
+import Joggers from './Components/Joggers';
+import Hats from './Components/Hats';
 // import Modaltryty from './Components/Modal/modal';
 // import  {AllProduct }   from './Components/Admin Dashbord/Product Add Page/AllProduct';
 // import AdminDashboard from './Components/Admin Dashbord/AdminDashboard';
 function App() {
   return (
+
     <div className="App">
 <BrowserRouter>
         <Routes>
@@ -63,6 +69,11 @@ function App() {
           <Route path={"/MyreviewAdmin"} element={<MyreviewAdmin />} />
           <Route path={"/MembershipVip"} element={<MembershipVip />} />
           <Route path={"/OrderVipMember"} element={<OrderVipMember />} />
+          <Route path={"/hoodie"} element={<Hoodies/>} />
+          <Route path={"/Tshirts"} element={<Tshirts/>} />
+          <Route path={"/Shorts"} element={<Shorts/>} />
+          <Route path={"/Joggers"} element={<Joggers/>} />
+          <Route path={"/Hats"} element={<Hats/>} />
         </Routes>
       </BrowserRouter>
     </div>

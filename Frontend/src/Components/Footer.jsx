@@ -1,108 +1,82 @@
 import React from 'react'
 import dd from  '../assets/images/footer-logo.png'
+import './Home.css'
 const Footer = () => {
   return (
-    <div>
-        <div className="pg-footer">
-        <footer className="footer">
-          {/* <svg className="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-            <path className="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-          </svg> */}
-          <div className="footer-content">
-            <div className="footer-content-column">
-              <div className="footer-logo">
-                <a className="footer-logo-link" href="#">
-                  <span className="hidden-link-text">LOGO</span>
-                  <img src={dd} alt="" />
-                </a>
-              </div>
-              <div className="footer-menu">
-                <h2 className="footer-menu-name"> Get Started</h2>
-                <ul id="menu-get-started" className="footer-menu-list">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Start</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Documentation</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                    <a href="#">Installation</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="footer-content-column">
-              <div className="footer-menu">
-                <h2 className="footer-menu-name"> Company</h2>
-                <ul id="menu-company" className="footer-menu-list">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Contact</a>
-                  </li>
-                  <li className="menu-item menu-item-type-taxonomy menu-item-object-category">
-                    <a href="#">News</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Careers</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="footer-menu">
-                <h2 className="footer-menu-name"> Legal</h2>
-                <ul id="menu-legal" className="footer-menu-list">
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                    <a href="#">Privacy Notice</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Terms of Use</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="footer-content-column">
-              <div className="footer-menu">
-                <h2 className="footer-menu-name"> Quick Links</h2>
-                <ul id="menu-quick-links" className="footer-menu-list">
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Support Center</a>
-                  </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Service Status</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Security</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Blog</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                    <a href="#">Customers</a></li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <a href="#">Reviews</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="footer-content-column   dsfsfdsfdscdsfds">
-              <div className="footer-call-to-action">
-                <h2 className="footer-call-to-action-title"> Let's Chat</h2>
-                <p className="footer-call-to-action-description"> Have a support question?</p>
-  
-                <div className='adsufv'>
-                <input className='border-1  kkll border-whites rounded-sm px-4 py-1'  placeholder='Email Address' type="text" name="" id="" />
-                <button className='nnju  border-black text-xl text-black mt-6 px-11 py-4 '>SUBSCRIBE</button>
-                </div>
-              </div>
-              <div className="footer-call-to-action">
-                <h2 className="footer-call-to-action-title"> You Call Us</h2>
-                <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> Ahmed</a></p>
-              </div>
-            </div>
-          
+    <div class="pg-footer">
+    <footer class="footer">
+      {/* <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+      <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
+    </svg> */}
+      <div class="footer-content">
+        <div class="footer-content-column"style={{textAlign:"start"}}>
+          <div class="footer-logo">
+            <a class="footer-logo-link" href="#" style={{marginLeft:"-50%",marginBottom:"10%"}}>
+              <span class="hidden-link-text">LOGO</span>
+              <img src={dd} alt="" />
+            </a>
           </div>
-          
-        </footer>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 footer-col logo-box">
+            <p className='footer-para-text'>lorem ipsum dolor sit amet, consectetur <br /> elit. sed libero nec arcu vehicula congue.
+            </p>
+            <div className='kojnbdsnk'style={{marginLeft:"-50%",marginTop:"20%",fontSize:25}}>
+              <i class="fa-brands mrAdd  fa-facebook-f"></i>
+              <i class="fa-brands mrAdd  fa-instagram"></i>
+              <i class="fa-brands mrAdd  fa-pinterest"></i>
+              <i class="fa-brands mrAdd  fa-youtube"></i>
+              <i class="fa-brands mrAdd  fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-column" style={{textAlign:"start"}}>
+          <div class="footer-menu">
+            <h2 class="footer-menu-name" style={{fontFamily:300,fontSize:35}}> Quick Links</h2>
+            <ul id="menu-company" class="footer-menu-list">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page" style={{fontFamily:10,fontSize:25}}>
+                <a href="#">About Us    </a>
+              </li>
+              <li class="menu-item menu-item-type-taxonomy menu-item-object-category" style={{fontFamily:10,fontSize:25}}>
+                <a href="#">Collection      </a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page" style={{fontFamily:10,fontSize:25}}>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column" style={{textAlign:"start"}}>
+          <div class="footer-menu">
+            <h2 class="footer-menu-name" style={{fontFamily:10,fontSize:35}}> Usefuls Links</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#" style={{fontFamily:10,fontSize:25}}>FAQ's </a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#" style={{fontFamily:10,fontSize:25}}>Terms and Conditions</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page" style={{fontFamily:10,fontSize:25}}>
+                <a href="#">Subscription</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page" style={{fontFamily:10,fontSize:25}}>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column" style={{textAlign:"start"}}>
+          <div class="footer-call-to-action">
+            <h2 class="FillTheVAlue" style={{fontFamily:100,fontSize:35}}> Newsletter Subscription</h2>
+            <p class="footer-call-to-action-description" style={{fontFamily:10,fontSize:25}}> lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <input className='border-1 kkll border-whites rounded-sm px-4 py-1 mt-10' style={{padding:"2%",width:"105%"}} placeholder='Email Address' type="text" name="" id="" />
+              <button className='nnju  border-black text-xl text-black mt-6 px-11 py-4 '>SUBSCRIBE</button>
+            </p>
+       
+          </div>
+        </div>
       </div>
-    </div>
+    </footer>
+  </div>
+
   )
 }
 

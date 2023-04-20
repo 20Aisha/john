@@ -1,18 +1,25 @@
+@font-face {
+    font-family: Roundkey;
+    src: url("../fonts//Roundkey\ Regular.otf");
+  }
+
 sup {
     top: 0  !important;
 }
 
 .mkolj{
-    font-family: cursive;
+    font-size: 1.5rem;
+    font-family: Roundkey;
 }
 .asjdbasdvijasd{
     width: 371px;
-    font-family:   cursive ;
+    font-family:   Roundkey ;
     height: 38px;
     margin-left: 10px;
     margin-top: 11px;
     border-radius: 17px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.5rem;
 }   
 .safdfda{
     background-color: wheat;
@@ -22,8 +29,8 @@ sup {
     font-size: 1.3rem;
 }
 .jasdhiavjf{
-    font-size: 1.3rem;
-    font-family: cursive;
+    font-size: 2rem;
+    font-family: Roundkey;
     margin-left: 8px;
     margin-right: 20px;
 }

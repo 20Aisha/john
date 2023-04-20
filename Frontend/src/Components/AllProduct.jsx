@@ -2,19 +2,24 @@ import React from 'react'
 import './AllProduct.css'
 import Header from './Header/Header'
 import './subcription.css'
+import './AllProduct.css'
+// import './subcription.css'
 import caroImage from '../assets/images/banner-img.png'
 import axios from "axios";
-import { useNavigate , Link } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useState, useEffect } from "react";
 import Footer from './Footer'
 import Pagination from '@mui/material/Pagination';
 import BasicPagination from './Pagination'
 import Stack from '@mui/material/Stack';
+import tatus from '../assets/images/tatsu.png'
+import shirt from '../assets/images/shirt-2.png'
+
 const AllProduct = () => {
   const [products, setProducts] = useState([]);
   const [loadProduct, setLoadProduct] = useState(false)
   const [page , setPage ]  =  useState(1)
-  const [numberOfPages , setnumberOfPages ]  =  useState(9)
+  const [numberOfPages , setnumberOfPages ]  =  useState(11)
   const [StarsArray , setStarsArray] = useState([1,2,3])
   const getAllProducts = async () => {
     try {
@@ -39,72 +44,53 @@ const AllProduct = () => {
 
   return (
     <div>
-<div className='bg-black  text-white'> Spend $50 for free shipping</div>
+      <div className='bg-black  text-white'> Spend $50 for free shipping</div>
       <Header />
-      
-      <div className='mmqqoop'>
 
-        <div className='iiyytt'>
-          <h1 className='fgd mkjbbfss notfillmine'>Subscription</h1> <br />
-          {/* <h1  className='fgd mkjbbfss'></h1> */}
-          <p className='mkjbbfss awdw notfillmine'>Life shouldn't be so black & white. <br />
-            The Brightest flame casts the darkest shadow.</p>
-          {/* <button className='iutrvh'>Shop Now!</button> */}
-          <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
-        </div>
-
-
-        <div className='ffmmkklloo'>
-          <img src={caroImage} alt="" />
+      <div className='mmmmiok' >
+        <div style={{ backgroundImage: `url(${tatus})` }}>
+          <div className='ml-5 p-5' style={{ textAlign: "left" }}>
+            <h1 className='fgd font-extrabold	mkjbbfss ' style={{ fontSize: 100 }}>All Product</h1> 
+            {/* <h1 className='fgd mkjbbfss'></h1><br /> */}
+            <p className='ml-1 p-5' style={{ fontSize: 50, color: "white", lineHeight: 1 }}>Life shouldn't be so black & white.<br />
+              The Brightest flame casts the darkest <br /> shadow.</p>
+            <button className='iutrvh'>Shop Now!</button>
+            <br />
+          
+          </div>
         </div>
       </div>
+
+
       <div  className='asfddsfdsfdsmkj'>
-{products.map((eachProduct, i) => (   
-  <div  key={i}  style={{"width": "17rem"}}   class=" z-50 bhy  w-md rounded overflow-hidden  bg-white  m-5">
-
-
-  <img class="w-full    h-40" src={eachProduct.imageUrl} alt="Sunset in the mountains"/>
-
-  <div     style={{"alignItems" : "flex-start"}}  class="px-6   flex flex-col justify-start    py-4">
-    <div   style={{"fontSize" : "20px"}}  class="font-bold   mb-2">{eachProduct.name}</div>
-    <div>
-
-    <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-    </div>
-
-    <div class="font-bold  text-cyan-500 text-2xl mb-2">${eachProduct.price}</div>
-    <p    class="text-black text-start  font-bold  ">
-    {eachProduct.description}
-    </p>
-
-
-
-  </div>
-  <div class="px-6 pt-4 pb-2">
+     
     
+      {products.map((eachProduct, i) => (   
+ <div className='CardHover' >
+ <img src={eachProduct.imageUrl} class="carousal-img img-fluid" style={{  width : "60%" , height : "50%" }} />
+<div class="member-text">
+<h4 className='name' >  ${eachProduct.name}</h4>
+<p class="price-2">${eachProduct.price}</p>
 
-
-
-
-  <Link  to={'/Signup3'}  state={{
+</div>
+<Link  to={'/Signup3'}  state={{
     name  : eachProduct.name, 
     id : eachProduct._id, 
     price : eachProduct.price , 
     Image :  eachProduct.imageUrl
           }}  >
-
-                <button     style={{"borderRadius":"7px"}}  class="bg-black  w-full hover:bg-red-700 text-white font-bold py-2 px-3    ">
-                <i class="fa-solid fa-cart-shopping"></i>   Buy Now  
-</button>
-          </Link>
-          
-  </div>
+<div class="member-link">
+<button href="#" className='iutrvh1 '  >Shop now</button>
+</div>
+</Link>
 </div>   
 )) } 
+
+
+
+
+
+
 {/* <BasicPagination/> */}
 </div>
 
@@ -115,9 +101,8 @@ const AllProduct = () => {
 
 
 <BasicPagination   shape="rounded"       setPage={setPage}   pageNumber={numberOfPages}   />
+<Footer/> 
 
-<Footer/>
-        
     </div>
   )
 }

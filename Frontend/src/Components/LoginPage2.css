@@ -4,27 +4,11 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
-/* @font-face {
-     
-    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-  }
-  
-  @font-face {
-    font-family: Poppins-Bold;
-    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-  }
-  
-  @font-face {
-    font-family: Poppins-Medium;
-    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-  }
-  
-  @font-face {
-    font-family: Montserrat-Bold;
-    src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-  }
-   */
+@font-face {
+  font-family: Roundkey;
+  src: url("./fonts/Roundkey\ Regular.otf");
+}
+   
   /*//////////////////////////////////////////////////////////////////
   [ RESTYLE TAG ]*/
   
@@ -69,8 +53,8 @@
   
   p {
        
-      font-size: 14px;
-      line-height: 1.7;
+      font-size: 13px;
+    
       color: #666666;
       margin: 0px;
   }

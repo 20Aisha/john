@@ -39,6 +39,16 @@ navigate('/Login', { replace: true })
     }
 }
   }
+const signupwithgoogle = async () => {
+	console.log("sign up with google")
+
+  }
+const signupwithapple = async () => {
+	console.log("sign up with apple")
+
+  }
+
+ 
 
   return (
     <div>
@@ -46,8 +56,8 @@ navigate('/Login', { replace: true })
 <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<div class="login100-pic js-tilt" data-tilt>
-					<img src={image} alt="IMG"/>
+				<div class="login100-pic js-tilt"  data-tilt>
+					<img src={image} alt="IMG"  />
 				</div>
 
 				<div   class="login100-form validate-form">
@@ -105,9 +115,27 @@ console.log(passwordA.current.value)
 						</button>
 						
 					</div>
+					<p className='or'>or sign up with</p>
+					<div className='btn-alignment'>
+					
+					<button   type='submit' onClick={()=>{
+						signupwithgoogle()
+					}}  class="sign-google-btn">
+							<i class="fa-brands fa-google "></i> 
+						</button>
+						
+				
+					
+					<button   type='submit' onClick={()=>{
+						signupwithapple()
+					}}  class="sign-apple-btn">
+							<i class="fa-brands fa-apple "></i>
+						</button>
+						
+					
 
 				
-				
+					</div>
 				</div>
 			</div>
 		</div>
