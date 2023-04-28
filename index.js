@@ -32,9 +32,6 @@ app.set('view engine','ejs')
 app.post('/api/v1/forgot-password' ,  (req,res)=>{
     const{email} = req.body     
     console.log(email);
-
-
-    
     userModel.find({ email :  email  } , function (err, docs) {
         if (docs.length === 0 ) {
             console.log('Error Occur '    + docs);
