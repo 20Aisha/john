@@ -105,9 +105,7 @@ router.post('/product', uploadMiddleware.any(), (req, res) => {
                             //             })
                             //         }
                             //     })
-                            res.status(200).send({
-                                message: "Succesfully Add Product",
-                            });
+                            res.status(200).send();
                         }
                     })
                 } else {
