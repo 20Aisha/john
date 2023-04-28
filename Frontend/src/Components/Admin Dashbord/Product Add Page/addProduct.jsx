@@ -3,9 +3,6 @@ import './Product.css'
 import axios from 'axios';
 import Sidebar from '../Sidebar';
 
-
-
-
 const AddProduct = () => {
   const [Name, setName] = useState()
   const [Price, setPrice] = useState()

@@ -1,3 +1,4 @@
+import path from 'path';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
@@ -6,7 +7,6 @@ import { tweetModel } from '../DataBase/dataBase.js';
 import { stringToHash, varifyHash } from "bcrypt-inzi"
 import jwt from 'jsonwebtoken';
 const SECRET = process.env.SECRET || "topsecret";
-import path from 'path';
 import express from 'express';
 import multer from 'multer';
 import bucket from '../Bucket/Firebase.js';

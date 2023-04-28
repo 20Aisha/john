@@ -29,6 +29,7 @@ app.use(cookieParser());
 app.use(express.json());
 app
 app.set('view engine','ejs')
+app.use('/api/v1', Product) 
 app.post('/api/v1/forgot-password' ,  (req,res)=>{
     const{email} = req.body     
     console.log(email);
@@ -280,7 +281,7 @@ app.delete("/api/v1/customer/:id", (req, res) => {
         });
       }
     });
-  });
+});
 app.get('/api/v1/products', (req, res) => {
 console.log(req.ip)
 const getData = async () =>{
@@ -301,7 +302,6 @@ const getData = async () =>{
         }
     });
 })
-app.use('/api/v1', Product) 
 app.use('/api/v1', loginsignup) 
 app.use('/api/v1', (req, res, next) => {
 
@@ -374,7 +374,6 @@ const getData = async ()=>{
 }
 getData()
 })
-
 const __dirname = path.resolve();
 app.use('/', express.static(path.join(__dirname, './Frontend/build')))
 app.use('*', express.static(path.join(__dirname, './Frontend/build')))
